@@ -243,6 +243,9 @@ export class AmigaDebugSession extends LoggingDebugSession {
 				config.set('quickstart', 'a4000,0'); // 68030, 68882, 2MB Chip 8MB FAST
 				//config.set('quickstart', 'a4000,1'); // 68040, 2MB Chip 8MB FAST
 				break;
+			case 'none':
+				config.delete('quickstart');
+				break;
 			}
 
 			if(args.kickstart !== undefined) {

@@ -19,5 +19,8 @@
 	"mochaExplorer.files": "src/test/suite/*.test.ts",
 	"mochaExplorer.require": "ts-node/register",
     "testExplorer.hideEmptyLog": false,
-    "testExplorer.useNativeTesting": true,
+	"testExplorer.useNativeTesting": true,
+	"[m68k]": {
+		"editor.rulers": []
+	},
 }
